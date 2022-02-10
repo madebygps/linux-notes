@@ -5,7 +5,7 @@
 
 ¡Aproveche el poder de la línea de comandos!
 
-> ¡Este taller se basa en este módulo de aprendizaje que debe visitar para aprender aún más! [Introducción a Bash - Aprender](https://aka.ms/bashintro5)
+> ¡Este taller se basa en este módulo de aprendizaje que debe visitar para aprender aún más! [Introducción a Bash - Aprender](https://aka.ms/introabash5)
 
 # Sociales
 
