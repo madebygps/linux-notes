@@ -367,7 +367,7 @@ grep -Eh '^bz|gz|zip' lista*.txt
 
 3. Ejecute el script `./create_files`
 4. Si quisiéramos ejecutar este comando sin `./`, tendríamos que agregarlo a un directorio en nuestro `$PATH`
-5. `echo $RUTA`
+5. `echo $PATH`
 6. Una ubicación ideal para scripts personales es `/usr/local/bin`
 7. Mueva el archivo allí `sudo cp create_files /usr/local/bin`
 8. Ahora puedes ejecutar `create_files`
