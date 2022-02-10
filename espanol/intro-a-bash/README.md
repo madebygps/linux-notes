@@ -19,7 +19,7 @@
 
 - Teoría
     - ¿Qué es una interfaz de línea de comandos?
-    - ¿Qué es una concha?
+    - ¿Qué es una shell?
     - ¿Qué es una Terminal?
     - ¿Qué es un script de Shell?
     - ¿Qué es Bash?
@@ -41,7 +41,7 @@ Un programa basado en texto que realiza acciones a través de comandos (por ejem
 - CLI de Azure
 - CLI de Docker
 
-# ¿Qué es una concha?
+# ¿Qué es una shell?
 
 Un shell es un programa que ejecuta comandos (desde CLI o integrados) y genera resultados.
 
