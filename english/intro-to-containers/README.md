@@ -263,4 +263,8 @@ To disabled networking for containers, use the none network option.
 
 # Demo
 
-- [Follow here](https://docs.microsoft.com/en-us/learn/modules/run-docker-with-azure-container-instances/)
+1. Create a Dockerfile for a new container image based on a starter image from Docker Hub
+1. Add files to an image using Dockerfile commands
+1. Configure an image's startup command with Dockerfile commands
+1. Build and run a web application packaged in a Docker image
+1. Deploy a Docker image using the Azure Container Instance service
