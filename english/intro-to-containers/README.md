@@ -263,6 +263,8 @@ To disabled networking for containers, use the none network option.
 
 # Demo
 
+[Build a containerized web application with Docker.](aka.ms/introcontainers5)
+
 1. Create a Dockerfile for a new container image based on a starter image from Docker Hub
 1. Add files to an image using Dockerfile commands
 1. Configure an image's startup command with Dockerfile commands
