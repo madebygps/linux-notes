@@ -1,28 +1,15 @@
 # Introduction to Docker
 
-[Introduction to Docker containers - Learn](https://docs.microsoft.com/en-us/learn/modules/intro-to-docker-containers/)
-
 [Docker overview](https://docs.docker.com/get-started/overview/)
 
-# The problem containers solve
+[Introduction to Docker containers](aka.ms/dockcontainers5)
+- Learn more in depth about images, dockerfiles, commands, and more.
 
-There's usually more than one team working on the success of your application. There's the development team that creates the application, and the operations team that take care of the deployment and management of it. Typically each team will have an environment they work in:
+[Build a containerized web application with Docker.](aka.ms/introcontainers5)
+- Exercise we are using in this session.
 
-- Development environment.
-- QA environment.
-- Pre-production environment.
-- Production environment.
-
-etc.
-
-There are some challenges that occur because of this setup:
-
-- Different environments require different software and hardware management.
-- Each deployment of our app to our environments must happen consistently.
-- Each deployment must execute in such a way that it's isolated from other applications running on the same hardware to make best use of resources without compromising each other.
-- Our applications must be portable.
-
-This is where containers come in to save the day.
+[Administer containers in Azure](aka.ms/admincontainers5)
+- 5 hour learning path covering more container related topics including an intro to Azure Kubernetes Service.
 
 # What is a container?
 
