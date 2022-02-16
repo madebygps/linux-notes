@@ -1,8 +1,15 @@
 # Introducción a Docker
 
-[Introducción a los contenedores Docker - Learn](https://docs.microsoft.com/en-us/learn/modules/intro-to-docker-containers/)
+[Introducción a los contenedores Docker - Learn](https://aka.ms/dockcontainers5)
+- Obtenga más información sobre imágenes, Dockerfiles, comandos y más.
 
 [Descripción general de Docker](https://docs.docker.com/get-started/overview/)
+
+[Build a containerized web application with Docker.](https://aka.ms/introcontainers5)
+- Ejercicio que estamos usando en esta sesión.
+
+[Administer containers in Azure](https://aka.ms/admincontainers5)
+- Ruta de aprendizaje de 5 horas que cubre más temas relacionados con contenedores, incluida una introducción a Azure Kubernetes Service.
 
 # El problema que resuelven los contenedores
 
