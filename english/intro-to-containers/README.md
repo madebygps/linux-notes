@@ -2,13 +2,13 @@
 
 [Docker overview](https://docs.docker.com/get-started/overview/)
 
-[Introduction to Docker containers](aka.ms/dockcontainers5)
+[Introduction to Docker containers](https://aka.ms/dockcontainers5)
 - Learn more in depth about images, dockerfiles, commands, and more.
 
-[Build a containerized web application with Docker.](aka.ms/introcontainers5)
+[Build a containerized web application with Docker.](https://aka.ms/introcontainers5)
 - Exercise we are using in this session.
 
-[Administer containers in Azure](aka.ms/admincontainers5)
+[Administer containers in Azure](https://aka.ms/admincontainers5)
 - 5 hour learning path covering more container related topics including an intro to Azure Kubernetes Service.
 
 # What is a container?
@@ -263,7 +263,7 @@ To disabled networking for containers, use the none network option.
 
 # Demo
 
-[Build a containerized web application with Docker.](aka.ms/introcontainers5)
+[Build a containerized web application with Docker.](https://aka.ms/introcontainers5)
 
 1. Create a Dockerfile for a new container image based on a starter image from Docker Hub
 1. Add files to an image using Dockerfile commands
