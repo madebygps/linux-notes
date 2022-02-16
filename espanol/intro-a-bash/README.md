@@ -176,7 +176,7 @@ Los comodines son símbolos que representan uno o más caracteres en los comando
     - Copiar archivos y directorios.
     - Este comando reemplazará, así que use `-i` para que se le solicite antes de sobrescribir.
     - Usa `r` para copiar subdirectorios. Significa recursivo.
-- `pd`
+- `ps
     - Obtenga una instantánea de todos los procesos que se están ejecutando actualmente.
 - `sudo`
     - Algunos comandos solo los puede ejecutar el usuario raíz (también conocido como superusuario). No desea iniciar sesión como usuario raíz porque
