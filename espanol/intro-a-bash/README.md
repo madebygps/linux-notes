@@ -255,8 +255,8 @@ Usando el operador de pipe |, el `stout` de un comando se puede canalizar al `st
     
     # Inserta lo siguiente
     yo = 0
-    mientras yo == 0:
-       aprobar
+    while yo == 0:
+       pass
     ```
     
 2. Inicie el programa `bash python3 bad.py &`. El `&` le dice a bash que ejecute el comando en segundo plano y no espere a que termine.
@@ -264,7 +264,7 @@ Usando el operador de pipe |, el `stout` de un comando se puede canalizar al `st
 3. Hagamos una lista de todos los procesos que contienen "python"
     
     ```bash
-    ps-ef | pitón grep
+    ps-ef | python grep
     ```
     
     - `ps` enumera los procesos en ejecución en el shell actual
@@ -277,14 +277,14 @@ Usando el operador de pipe |, el `stout` de un comando se puede canalizar al `st
     
     ```bash
     # Mostrar una lista de tipos de señales
-    matar -l
+    kill -l
     ```
     - Si quisiéramos reiniciar un proceso, usaríamos `SIGHUP`
     - En este caso queremos detener el proceso sin reiniciar, entonces usamos `SIGKILL` `9`
     
-5. Tenemos que decidir qué señal vamos a enviar para `matar`. El valor predeterminado es `TERM` (permite que el proceso se cierre de forma segura)
+5. Tenemos que decidir qué señal vamos a enviar para `kill`. El valor predeterminado es `TERM` (permite que el proceso se cierre de forma segura). 
     ```bash
-    matar -9 PROCESS_ID
+    kill -9 PROCESS_ID
     ```
 
 ## Use Bash y grep para filtrar la salida CLI
@@ -292,9 +292,9 @@ Usando el operador de pipe |, el `stout` de un comando se puede canalizar al `st
 Usemos el programa universal de coincidencia de patrones de Linux `grep` para filtrar la salida de la CLI de Azure.
 
 ```bash
-az vm list-sizes --ubicación westus --tabla de salida
+az vm list-sizes --location westus --output table
 
-az vm list-sizes -l eastus2 -o tabla | awk '{imprimir $3}' | grepDS.*_v2$
+az vm list-sizes -l eastus2 -o table | awk '{imprimir $3}' | grepDS.*_v2$
 ```
 
 # El comando `grep`
@@ -332,7 +332,7 @@ ls /usr/sbin > lista-usr-sbin.txt
 ## Algunos ejercicios más de grep
 
 ```bash
-grep lista bzip*.txt
+grep bzip lista*.txt
 grep -l bzip lista*.txt
 grep -L bzip lista*.txt
 grep -h '.zip' lista*.txt
@@ -348,16 +348,16 @@ grep -Eh '^bz|gz|zip' lista*.txt
 
 ## Guión bash simple
 
-1. Escriba un script llamado `create_files.sh` con `vim create_files` con este contenido:
+1. Escriba un script llamado `create_files` con `vim create_files` con este contenido:
 
     ```sh
     #!/bin/bash
     # Saluda y crea algunos archivos
 
     echo '¡Creando archivos para ti!'
-    para f en {a..z} {0..5}; hacer
+    for f in {a..z} {0..5}; do
         echo hola > "$f.txt"
-    hecho
+    done
     ```
 2. Haga que el script sea ejecutable con `chmod`
     - `chmod 755` para scripts que todos pueden ejecutar.
