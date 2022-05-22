@@ -259,7 +259,7 @@ Using the pipe operator |, the `stout` of one command can be piped into the `std
        pass
     ```
     
-2. Start the program `bash python3 bad.py &`. The `&` tells bash to run the command in the background and not wait for it to finish.
+2. Start the program `python3 bad.py &`. The `&` tells bash to run the command in the background and not wait for it to finish.
 
 3. Let’s list all the process that contain “python”
     
